@@ -1,5 +1,8 @@
 JavaCV
 ======
+How to use JavaCV in Android project
+------------
+Extract all the .so files from opencv-android-arm.jar (The easiest way to extract the .so files from the .jar is by using un-zipping software), copy **armeabi** folder from \lib into \libs in your project. copy **javacpp.jar**, **javacv.jar**, **opencv.jar** into \libs in your project.
 
 Introduction
 ------------
