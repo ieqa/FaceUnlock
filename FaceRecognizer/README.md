@@ -4,4 +4,4 @@ For the simplicity of this post, the class also requires that the training image
 
 **\<label>-rest_of_filename.png**.
 
-lable must be number. You must collect face image under different illuminations for a better recognition rate.
+lable must be number. You must collect face images under different illuminations as much as possible for a better recognition rate.
