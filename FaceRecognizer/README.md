@@ -3,3 +3,5 @@ The method below takes two arguments: The path to the directory containing the t
 For the simplicity of this post, the class also requires that the training images have filename format:
 
 **\<label>-rest_of_filename.png**.
+
+lable must be number. You must collect face image under different illuminations for a better recognition rate.
