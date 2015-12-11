@@ -2,12 +2,6 @@ Android-HomeKey-Locker
 ======================
 Utility to disable **HOME KEY** in Android Activity.
 
-As there are a lot questions about "how to disable home button in android?" on `Stack Overflow`, such as
-
-* [how to disable home button in android?][4]
-* [Android - Is It possible to disable the click of home button][5]
-* [How to disable Home and other system buttons in Android?][6]
-
 This library provide a easy way to do this job.
 
 **NOTICE**
@@ -31,6 +25,23 @@ The demo application (the source is in the repository) has been published onto G
 
 Usage
 =====
+Put HomeKeyLocker.java in your Util package.
+
+In Android-HomeKey-Locker/HomeLockerLib/src/main/res/values/styles.xml, copy
+```xml
+<style name="OverlayDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+</style>
+```
+in your styles.xml.
+
+Add <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> in your AndroidManifest.xml.
+
 in Activity
 
 ```java
