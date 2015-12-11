@@ -25,9 +25,9 @@ The demo application (the source is in the repository) has been published onto G
 
 Usage
 =====
-Put HomeKeyLocker.java in your Util package.
+Put `HomeKeyLocker.java` in your Util package.
 
-In Android-HomeKey-Locker/HomeLockerLib/src/main/res/values/styles.xml, copy
+In `Android-HomeKey-Locker/HomeLockerLib/src/main/res/values/styles.xml`, copy
 ```xml
 <style name="OverlayDialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -38,9 +38,9 @@ In Android-HomeKey-Locker/HomeLockerLib/src/main/res/values/styles.xml, copy
         <item name="android:backgroundDimEnabled">false</item>
 </style>
 ```
-in your styles.xml.
+in your `styles.xml`.
 
-Add <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> in your AndroidManifest.xml.
+Add `<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />` in your `AndroidManifest.xml`.
 
 in Activity
 
